@@ -1,0 +1,87 @@
+/********* 
+General  
+**********/
+* {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+/********* 
+Container for cards 
+**********/
+
+.cardContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/********** 
+Card Styling 
+***********/
+
+.card {
+	width: 30%;
+	border: 1px solid lightblue;
+	margin: 1% 1%;
+
+}
+
+.title {
+	border: 1px dotted lightgrey;
+	text-align: center;  
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 150px;
+}
+
+.description {
+	text-align: justify;
+	padding: 10px 10px;
+}
+
+.pricing, .specifications {
+	font-weight: bold;
+	list-style: none;
+	padding-left: 20px;
+}
+
+.availability {
+	background-color: darkgrey;
+	color: yellow;
+	padding: 5px 5px;
+}
+
+/* Specifications, Pricing "Header" Text */
+/* Specifications */
+.second h4 {
+	font-size: 1.15em;
+	font-weight: normal;
+	padding: 0 10px;
+	margin: 0;
+}
+/* Pricing */
+.third h4 {
+	font-size: 1.25em;
+	font-weight: normal;
+	padding: 0 10px;
+	margin: 0;
+}
+
+/* List margin removal */
+
+ul {
+	margin: 0;
+}
+
+/* Specs Footer */
+
+.second footer {
+	font-size: .85em;
+}
